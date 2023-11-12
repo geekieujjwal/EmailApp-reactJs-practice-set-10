@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  min-width: 10rem;
+  align-items: center;
+}
+
+@media screen and (max-width: 590px) {
+  .navbar {
+    min-width: auto;
+    margin: 0 1rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .navbar {
+    /* flex-direction: row; */
+    gap: 0;
+    margin-bottom: 1rem;
+  }
+}
